@@ -1,16 +1,16 @@
 # Site settings
-title: เรื่องที่เราเรียนรู้ในแต่ละวัน
-description: เรื่องที่เราเรียนรู้ในแต่ละวัน
-baseurl: "/odds.horizon" # the subpath of your site, e.g. /blog
-url: "https://sdeehub.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: "BD#15"
+description: "BD#15"
+baseurl: "/15" # the subpath of your site, e.g. /blog
+url: "https://obdhub.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Odd's Horizon
-user_description: ความคิด ความจริง ความฝัน และ ขอบฟ้านั่น จริงแท้แค่ไม่ได้มีอะไร นอกจากถนนที่ยังไปต่อได้ และเปลวแดดตอนหน้าร้อนของใครสักคน 
-user_title: ความคิดไปถึง ตรงที่ปลายฟ้า หรืออาจไกลกว่า ที่ว่าของจักรวาล
+username: "BD#15"
+user_description: "Because of you, I laugh a little harder, cry a little less, and smile a lot more!"
+user_title: "Many people will walk in and out of your life. But only true friends will leave footprints in your heart. ~ Buddha"
 email: odd.daboss@gmail.com
 twitter_username: odd_daboss
-github_username:  sdeehub/odds.horizon
+github_username:  obdhub/15
 gplus_username:
 disqus_username:
 
