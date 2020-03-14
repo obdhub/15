@@ -17,9 +17,9 @@ layout: default
                     </time>
                 </a>
                 <div class="content">
-                    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name" style="font-family:Prompt;">{{ post.title }}</h2></a>
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name" style="font-family:Prompt;">{{ post.advisors }}</h2></a>
                     <p class="description" style="font-family:Athiti;">
-                        {{ post.content | strip_html | truncatewords:30 }}
+                        {{ post.content | strip_html | truncatewords:40 }}
                         <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
                     </p>
 
