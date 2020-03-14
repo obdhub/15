@@ -9,17 +9,17 @@ layout: default
                     <meta itemprop="datePublished" content="{{post.date}}">
                     <time datetime="{{ post.date | date_to_xmlschema }}">
                         <span class="day" style="font-family:Prompt;">
-                            {{ post.date | date: "%d" }}
+                            {{ post.room }}
                         </span>
                         <span class="month-year" style="font-family:Prompt;">
-                            {{ post.date | date: "%B %Y" }}
+                            {{ post.room_tag }}
                         </span>
                     </time>
                 </a>
                 <div class="content">
                     <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name" style="font-family:Prompt;">{{ post.title }}</h2></a>
                     <p class="description" style="font-family:Athiti;">
-                        {{ post.content | strip_html | truncatewords:40 }}
+                        {{ post.content | strip_html | truncatewords:30 }}
                         <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
                     </p>
 
