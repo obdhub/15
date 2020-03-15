@@ -2,7 +2,7 @@
 layout: minimal
 title: "#Tags"
 permalink: /tags/index.html
-description: "อาจจะเพราะแบบนี้ พวกเราถึงจะได้ใช้ประโยชน์จากความเป็นไป ... ความเป็นไปของเวลา ได้เหมือนๆ กัน"
+description: "Because of you, I laugh a little harder, cry a little less, and smile a lot more."
 ---
 
 <div class="tags">
@@ -26,7 +26,7 @@ description: "อาจจะเพราะแบบนี้ พวกเร�
         {% for post in pages_list reversed %}
             {% if post.title != null %}
             {% if group == null or group == post.group %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.description }}</time></a></li>
             {% endif %}
             {% endif %}
         {% endfor %}
