@@ -39,5 +39,8 @@ links:
   - title: About Me
     url: /about
 
+plugins:
+  - jekyll-paginate
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
