@@ -1,11 +1,11 @@
 <div class="tags">
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url | relative_url }}">PREV</a>
-  {% else %}
-    <a href="{{ site.baseurl }}">HOME</a>
-  {% endif %}
   {% if page.next.url %}
-    <a href="{{ page.next.url | relative_url }}">NEXT</a>
+  <a href="{{ page.next.url | relative_url }}">PREV</a>
+  {% else %}
+  <a href="{{ site.baseurl }}">HOME</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}">NEXT</a>
   {% else %}
     <a href="{{ site.baseurl }}">HOME</a>
   {% endif %}
