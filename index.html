@@ -20,7 +20,7 @@ layout: default
                     <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name" style="font-family:Prompt;color:#696969">{{ post.advisors }}</h2></a>
                     <p class="description" style="font-family:Athiti;">
                         {{ post.content | strip_html | truncatewords:40 }}
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">›› {{post.title}}</a>
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
                     </p>
 
                     <div class="tags">
