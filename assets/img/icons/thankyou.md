@@ -1,0 +1,2 @@
+- Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+- Favicon made by [favicon.io](https://favicon.io/favicon-converter/)
